@@ -1,0 +1,108 @@
+object FormCadastroPai: TFormCadastroPai
+  Left = -853
+  Height = 322
+  Top = 248
+  Width = 397
+  Caption = 'Cadastro de ...'
+  ClientHeight = 322
+  ClientWidth = 397
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '2.2.4.0'
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 280
+    Top = 49
+    Width = 400
+    ActivePage = TabSheetListaCadastro
+    TabIndex = 0
+    TabOrder = 0
+    object TabSheetListaCadastro: TTabSheet
+      Caption = 'Lista Cadastro'
+      ClientHeight = 252
+      ClientWidth = 392
+      object DBGrid1: TDBGrid
+        Left = 0
+        Height = 210
+        Top = 0
+        Width = 392
+        Color = clWindow
+        Columns = <>
+        OptionsExtra = [dgeAutoColumns]
+        TabOrder = 0
+      end
+      object ButtonExcluir: TButton
+        Left = 304
+        Height = 25
+        Top = 217
+        Width = 75
+        Caption = 'Excluir'
+        OnClick = ButtonExcluirClick
+        TabOrder = 1
+      end
+      object ButtonInserir: TButton
+        Left = 224
+        Height = 25
+        Top = 217
+        Width = 75
+        Caption = 'Inserir'
+        OnClick = ButtonInserirClick
+        TabOrder = 2
+      end
+      object ButtonAlterar: TButton
+        Left = 144
+        Height = 25
+        Top = 217
+        Width = 75
+        Caption = 'Alterar'
+        OnClick = ButtonAlterarClick
+        TabOrder = 3
+      end
+    end
+    object TabSheetCadastrar: TTabSheet
+      Caption = 'Cadastrar'
+      ClientHeight = 252
+      ClientWidth = 392
+      object ButtonCancelar: TButton
+        Left = 304
+        Height = 25
+        Top = 217
+        Width = 75
+        Caption = 'Cancelar'
+        OnClick = ButtonCancelarClick
+        TabOrder = 0
+      end
+      object ButtonSalvar: TButton
+        Left = 224
+        Height = 25
+        Top = 217
+        Width = 75
+        Caption = 'Salvar'
+        OnClick = ButtonSalvarClick
+        TabOrder = 1
+      end
+    end
+  end
+  object Panel1: TPanel
+    Left = -8
+    Height = 56
+    Top = -7
+    Width = 407
+    BevelColor = clNone
+    Caption = 'Panel1'
+    Color = 13487565
+    ParentColor = False
+    TabOrder = 1
+  end
+  object DataSource1: TDataSource
+    DataSet = ZQuery1
+    Left = 336
+    Top = 7
+  end
+  object ZQuery1: TZQuery
+    Connection = DataModule1.ZConnection1
+    Params = <>
+    Left = 280
+    Top = 7
+  end
+end

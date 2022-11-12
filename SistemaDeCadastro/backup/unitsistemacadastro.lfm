@@ -1,0 +1,58 @@
+object FormSistemaCadastro: TFormSistemaCadastro
+  Left = -736
+  Height = 357
+  Top = 245
+  Width = 179
+  Caption = 'Sistema de Cadastro'
+  ClientHeight = 357
+  ClientWidth = 179
+  OnCreate = FormCreate
+  ParentBiDiMode = False
+  LCLVersion = '2.2.4.0'
+  WindowState = wsFullScreen
+  object ButtonFornecedor: TButton
+    Left = 16
+    Height = 56
+    Top = 7
+    Width = 147
+    Caption = 'Fornecedor'
+    OnClick = ButtonFornecedorClick
+    TabOrder = 0
+  end
+  object ButtonFuncionario: TButton
+    Left = 16
+    Height = 56
+    Top = 77
+    Width = 147
+    Caption = 'Funcionario'
+    OnClick = ButtonFuncionarioClick
+    TabOrder = 1
+  end
+  object ButtonCliente: TButton
+    Left = 16
+    Height = 56
+    Top = 147
+    Width = 147
+    Caption = 'Cliente'
+    OnClick = ButtonClienteClick
+    TabOrder = 2
+  end
+  object ButtonProduto: TButton
+    Left = 16
+    Height = 56
+    Top = 217
+    Width = 147
+    Caption = 'Produto'
+    OnClick = ButtonProdutoClick
+    TabOrder = 3
+  end
+  object ButtonCrediario: TButton
+    Left = 16
+    Height = 56
+    Top = 287
+    Width = 147
+    Caption = 'Crediário'
+    OnClick = ButtonCrediarioClick
+    TabOrder = 4
+  end
+end

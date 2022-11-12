@@ -1,0 +1,285 @@
+inherited FormCadastroCliente: TFormCadastroCliente
+  Left = -1059
+  Height = 341
+  Width = 785
+  ClientHeight = 341
+  ClientWidth = 785
+  inherited PageControl1: TPageControl
+    Height = 518
+    Width = 785
+    ActivePage = TabSheetCadastrar
+    TabIndex = 1
+    inherited TabSheetListaCadastro: TTabSheet
+      ClientHeight = 490
+      ClientWidth = 777
+      inherited DBGrid1: TDBGrid
+        Left = -4
+        Height = 231
+        Width = 788
+        DataSource = DataSource1
+      end
+      inherited ButtonExcluir: TButton
+        Left = 696
+        Top = 238
+      end
+      inherited ButtonInserir: TButton
+        Left = 536
+        Top = 238
+      end
+      inherited ButtonAlterar: TButton
+        Left = 616
+        Top = 238
+      end
+    end
+    inherited TabSheetCadastrar: TTabSheet
+      ClientHeight = 490
+      ClientWidth = 777
+      inherited ButtonCancelar: TButton
+        Left = 696
+        Top = 238
+      end
+      inherited ButtonSalvar: TButton
+        Left = 616
+        Top = 238
+      end
+      object DBEditId: TDBEdit[2]
+        Left = 9
+        Height = 23
+        Top = 56
+        Width = 80
+        DataField = 'codigo'
+        DataSource = DataSource1
+        ReadOnly = True
+        Alignment = taRightJustify
+        Color = clScrollBar
+        MaxLength = 0
+        TabOrder = 2
+      end
+      object DBEditNome: TDBEdit[3]
+        Left = 104
+        Height = 23
+        Top = 56
+        Width = 275
+        DataField = 'nome'
+        DataSource = DataSource1
+        MaxLength = 50
+        TabOrder = 3
+      end
+      object StaticText18: TStaticText[4]
+        Left = 9
+        Height = 17
+        Top = 35
+        Width = 65
+        Caption = 'ID'
+        TabOrder = 4
+      end
+      object StaticText19: TStaticText[5]
+        Left = 104
+        Height = 17
+        Top = 35
+        Width = 65
+        Caption = 'Nome'
+        TabOrder = 5
+      end
+      object DBEditCPF: TDBEdit[6]
+        Left = 8
+        Height = 23
+        Top = 126
+        Width = 144
+        DataField = 'cpf'
+        DataSource = DataSource1
+        MaxLength = 15
+        TabOrder = 6
+      end
+      object DBEditEmail: TDBEdit[7]
+        Left = 184
+        Height = 23
+        Top = 126
+        Width = 195
+        DataField = 'email'
+        DataSource = DataSource1
+        MaxLength = 50
+        TabOrder = 7
+      end
+      object DBEditTelefone: TDBEdit[8]
+        Left = 8
+        Height = 23
+        Top = 196
+        Width = 144
+        DataField = 'telefone'
+        DataSource = DataSource1
+        MaxLength = 15
+        TabOrder = 8
+      end
+      object StaticText21: TStaticText[9]
+        Left = 8
+        Height = 17
+        Top = 105
+        Width = 65
+        Caption = 'CPF'
+        TabOrder = 9
+      end
+      object StaticText22: TStaticText[10]
+        Left = 184
+        Height = 17
+        Top = 105
+        Width = 65
+        Caption = 'Email'
+        TabOrder = 10
+      end
+      object StaticText23: TStaticText[11]
+        Left = 9
+        Height = 17
+        Top = 175
+        Width = 65
+        Caption = 'Telefone'
+        TabOrder = 11
+      end
+      object GroupBox1: TGroupBox[12]
+        Left = 400
+        Height = 196
+        Top = 28
+        Width = 372
+        Caption = 'Endereço'
+        ClientHeight = 176
+        ClientWidth = 368
+        TabOrder = 12
+        object DBEditRua: TDBEdit
+          Left = 8
+          Height = 23
+          Top = 28
+          Width = 128
+          DataField = 'rua'
+          DataSource = DataSource1
+          MaxLength = 50
+          TabOrder = 0
+        end
+        object DBEditCidade: TDBEdit
+          Left = 152
+          Height = 23
+          Top = 28
+          Width = 120
+          DataField = 'cidade'
+          DataSource = DataSource1
+          MaxLength = 50
+          TabOrder = 1
+        end
+        object DBEditBairro: TDBEdit
+          Left = 8
+          Height = 23
+          Top = 84
+          Width = 128
+          DataField = 'bairro'
+          DataSource = DataSource1
+          MaxLength = 20
+          TabOrder = 2
+        end
+        object DBEditNumero: TDBEdit
+          Left = 280
+          Height = 23
+          Top = 28
+          Width = 80
+          DataField = 'numero'
+          DataSource = DataSource1
+          MaxLength = 10
+          TabOrder = 3
+        end
+        object DBEditReferencia: TDBEdit
+          Left = 152
+          Height = 23
+          Top = 84
+          Width = 208
+          DataField = 'referencia'
+          DataSource = DataSource1
+          MaxLength = 20
+          TabOrder = 4
+        end
+        object StaticText8: TStaticText
+          Left = 8
+          Height = 17
+          Top = 7
+          Width = 65
+          Caption = 'Rua'
+          TabOrder = 5
+        end
+        object StaticText9: TStaticText
+          Left = 152
+          Height = 17
+          Top = 7
+          Width = 65
+          Caption = 'Cidade'
+          TabOrder = 6
+        end
+        object StaticText10: TStaticText
+          Left = 280
+          Height = 17
+          Top = 7
+          Width = 65
+          Caption = 'Numero'
+          TabOrder = 7
+        end
+        object StaticText11: TStaticText
+          Left = 8
+          Height = 17
+          Top = 63
+          Width = 65
+          Caption = 'Bairro'
+          TabOrder = 8
+        end
+        object StaticText12: TStaticText
+          Left = 152
+          Height = 17
+          Top = 63
+          Width = 65
+          Caption = 'Referência'
+          TabOrder = 9
+        end
+        object StaticText13: TStaticText
+          Left = 8
+          Height = 17
+          Top = 119
+          Width = 65
+          Caption = 'CEP'
+          TabOrder = 10
+        end
+        object ButtonBuscar: TButton
+          Left = 217
+          Height = 25
+          Top = 140
+          Width = 87
+          Caption = 'Buscar'
+          OnClick = ButtonBuscarClick
+          TabOrder = 11
+        end
+        object DBEditCep: TDBEdit
+          Left = 8
+          Height = 23
+          Top = 140
+          Width = 176
+          DataField = 'cep'
+          DataSource = DataSource1
+          MaxLength = 20
+          TabOrder = 12
+        end
+      end
+    end
+  end
+  inherited Panel1: TPanel
+    Left = -7
+    Height = 49
+    Top = 0
+    Width = 792
+    Caption = 'Cadastro de Cliente'
+  end
+  inherited DataSource1: TDataSource
+    Left = 488
+  end
+  inherited ZQuery1: TZQuery
+    Active = True
+    SQL.Strings = (
+      'SELECT * FROM cadastro.cliente'
+      ''
+    )
+    Left = 552
+  end
+end

@@ -1,0 +1,194 @@
+inherited FormCadastroProduto: TFormCadastroProduto
+  Left = -846
+  Height = 325
+  Caption = 'Cadastro Produtos'
+  inherited PageControl1: TPageControl
+    inherited TabSheetListaCadastro: TTabSheet
+      inherited DBGrid1: TDBGrid
+        DataSource = DataSource1
+      end
+      inherited ButtonExcluir: TButton
+        Left = 312
+      end
+      inherited ButtonInserir: TButton
+        Left = 152
+      end
+      inherited ButtonAlterar: TButton
+        Left = 232
+      end
+    end
+    inherited TabSheetCadastrar: TTabSheet
+      object DBEditNome: TDBEdit[2]
+        Left = 131
+        Height = 23
+        Top = 35
+        Width = 229
+        DataField = 'nome'
+        DataSource = DataSource1
+        MaxLength = 50
+        TabOrder = 2
+      end
+      object DBEditFornecedor: TDBEdit[3]
+        Left = 16
+        Height = 23
+        Top = 98
+        Width = 176
+        DataField = 'fornecedor'
+        DataSource = DataSource1
+        MaxLength = 50
+        TabOrder = 3
+      end
+      object DBEditPreco: TDBEdit[4]
+        Left = 216
+        Height = 23
+        Top = 98
+        Width = 141
+        DataField = 'preco'
+        DataSource = DataSource1
+        Alignment = taRightJustify
+        MaxLength = 0
+        TabOrder = 4
+      end
+      object DBEditEstoque: TDBEdit[5]
+        Left = 16
+        Height = 23
+        Top = 161
+        Width = 96
+        DataField = 'estoque'
+        DataSource = DataSource1
+        Alignment = taRightJustify
+        MaxLength = 0
+        TabOrder = 5
+      end
+      object DBDateTimePicker1: TDBDateTimePicker[6]
+        Left = 136
+        Height = 23
+        Top = 161
+        Width = 83
+        DataField = 'datacomta'
+        DataSource = DataSource1
+        ReadOnly = False
+        CenturyFrom = 1941
+        MaxDate = 2958465
+        MinDate = -53780
+        TabOrder = 6
+        TrailingSeparator = False
+        TextForNullDate = 'NULL'
+        LeadingZeros = True
+        Kind = dtkDate
+        TimeFormat = tf24
+        TimeDisplay = tdHMS
+        DateMode = dmComboBox
+        UseDefaultSeparators = True
+        HideDateTimeParts = []
+        MonthNames = 'Long'
+      end
+      object DBDateTimePicker2: TDBDateTimePicker[7]
+        Left = 264
+        Height = 23
+        Top = 161
+        Width = 83
+        DataField = 'datavencimento'
+        DataSource = DataSource1
+        ReadOnly = False
+        CenturyFrom = 1941
+        MaxDate = 2958465
+        MinDate = -53780
+        TabOrder = 7
+        TrailingSeparator = False
+        TextForNullDate = 'NULL'
+        LeadingZeros = True
+        Kind = dtkDate
+        TimeFormat = tf24
+        TimeDisplay = tdHMS
+        DateMode = dmComboBox
+        UseDefaultSeparators = True
+        HideDateTimeParts = []
+        MonthNames = 'Long'
+      end
+      object StaticText1: TStaticText[8]
+        Left = 16
+        Height = 17
+        Top = 14
+        Width = 65
+        Caption = 'ID'
+        TabOrder = 8
+      end
+      object StaticText2: TStaticText[9]
+        Left = 131
+        Height = 17
+        Top = 14
+        Width = 109
+        Caption = 'Nome do Produto'
+        TabOrder = 9
+      end
+      object StaticText3: TStaticText[10]
+        Left = 16
+        Height = 17
+        Top = 77
+        Width = 65
+        Caption = 'Fornecedor'
+        TabOrder = 10
+      end
+      object StaticText4: TStaticText[11]
+        Left = 216
+        Height = 17
+        Top = 77
+        Width = 65
+        Caption = 'Preço'
+        TabOrder = 11
+      end
+      object StaticText5: TStaticText[12]
+        Left = 16
+        Height = 17
+        Top = 140
+        Width = 65
+        Caption = 'Estoque'
+        TabOrder = 12
+      end
+      object StaticText6: TStaticText[13]
+        Left = 136
+        Height = 17
+        Top = 140
+        Width = 96
+        Caption = 'Data da Compra'
+        TabOrder = 13
+      end
+      object StaticText7: TStaticText[14]
+        Left = 264
+        Height = 17
+        Top = 140
+        Width = 107
+        Caption = 'Data de Vencimento'
+        TabOrder = 14
+      end
+      object DBEditId: TDBEdit[15]
+        Left = 16
+        Height = 23
+        Top = 35
+        Width = 80
+        DataField = 'id'
+        ReadOnly = True
+        Alignment = taRightJustify
+        Color = clScrollBar
+        MaxLength = 0
+        TabOrder = 15
+      end
+    end
+  end
+  inherited Panel1: TPanel
+    Caption = 'Cadastro de Produtos'
+  end
+  inherited DataSource1: TDataSource
+    Left = 320
+    Top = 0
+  end
+  inherited ZQuery1: TZQuery
+    Active = True
+    SQL.Strings = (
+      'SELECT * FROM cadastro.produto'
+      ''
+    )
+    Top = 0
+  end
+end

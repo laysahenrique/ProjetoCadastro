@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="projectSistemaCadastro.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="27" Y="13"/>
+        <UsageCount Value="199"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitsistemacadastro.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormSistemaCadastro"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitSistemaCadastro"/>
+        <EditorIndex Value="13"/>
+        <TopLine Value="49"/>
+        <CursorPos X="22" Y="68"/>
+        <UsageCount Value="199"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitcadastropai.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormCadastroPai"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitCadastroPai"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="28"/>
+        <CursorPos X="24" Y="36"/>
+        <UsageCount Value="199"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitcadastrofornecedor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormCadastroFornecedor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitCadastroFornecedor"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="41"/>
+        <CursorPos X="40" Y="45"/>
+        <UsageCount Value="199"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitcadastrocliente.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormCadastroCliente"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitCadastroCliente"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="67"/>
+        <CursorPos X="54" Y="77"/>
+        <UsageCount Value="199"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitproduto.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormCadastroProduto"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitProduto"/>
+        <EditorIndex Value="12"/>
+        <TopLine Value="20"/>
+        <CursorPos X="41" Y="31"/>
+        <UsageCount Value="198"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitcrediario.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormCadastroCrediario"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitCrediario"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="29"/>
+        <CursorPos Y="45"/>
+        <UsageCount Value="198"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitcadastrofuncionario.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormCadastroCadastroFuncionario"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitCadastroFuncionario"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="59"/>
+        <CursorPos X="23" Y="64"/>
+        <UsageCount Value="196"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitdat.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DataModule1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="unitDat"/>
+        <EditorIndex Value="11"/>
+        <TopLine Value="4"/>
+        <CursorPos X="33" Y="15"/>
+        <UsageCount Value="161"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitcadastrocliente.lfm"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="59"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitproduto.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="0"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitcadastrofuncionario.lfm"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="313"/>
+        <CursorPos X="4" Y="334"/>
+        <UsageCount Value="59"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitcadastrofornecedor.lfm"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="59"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitcadastropai.lfm"/>
+        <EditorIndex Value="7"/>
+        <UsageCount Value="59"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitcrediario.lfm"/>
+        <EditorIndex Value="9"/>
+        <UsageCount Value="58"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitdat.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="0"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitsistemacadastro.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="0"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="1">
+      <Position>
+        <Filename Value="unitsistemacadastro.pas"/>
+        <Caret Line="21" Column="23" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="unitsistemacadastro.pas"/>
+        <Caret Line="63" Column="42" TopLine="49"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
